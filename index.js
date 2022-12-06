@@ -63,7 +63,7 @@ var restaurants = [
 ];
 var schema = buildSchema(`
 type Query{
-  restaurant(id: Int): restaurant
+  restaurant(ind: Int): restaurant
   restaurants: [restaurant]
 },
 type restaurant {
